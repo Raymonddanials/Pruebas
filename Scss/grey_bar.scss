@@ -1,0 +1,53 @@
+// INICIO ".grey_bar" =============================================
+.grey_bar{
+    display: flexbox;
+    margin: auto;
+    font-size: 20px;
+}
+
+    // HORIZONTAL
+    .grey_bar .horizontal{
+        background-color: #D95F8C;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .grey_bar .horizontal > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: beige;
+        text-decoration: none;
+    }
+    .grey_bar .horizontal > li:hover{
+        background-color: beige;
+    }
+    .grey_bar .horizontal > li:hover a{        
+        color: #D989A6;
+    }
+
+    // VERTICAL
+    .grey_bar .vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: beige;
+    }
+    .grey_bar .vertical > li > a{
+        color: #D989A6;
+    }
+    .grey_bar .horizontal li:hover .vertical{
+        display: block;
+    }
+    .grey_bar .vertical > li:hover{
+        background-color: #D989A6; // #9C1BBF;
+    }
+    .grey_bar .vertical > li:hover a{
+        color: beige; // #9C1BBF;
+    }
+    .grey_bar .vertical li a{
+        display: block;
+        color: white;
+        padding: 15px 15px 15px 20px;
+    }
+// FIN ".grey_bar" =============================================
