@@ -164,6 +164,45 @@ input {
   border-radius: 0;
 }
 
+.grey_bar-horizontal {
+  list-style: none;
+  display: flexbox;
+  justify-content: space-around;
+}
+
+.grey_bar-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: beige;
+  text-decoration: none;
+}
+
+.grey_bar-horizontal > li:hover {
+  background-color: red;
+}
+
+.grey_bar-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grey_bar-horizontal li:hover .grey_bar-vertical {
+  display: block;
+}
+
+.grey_bar-vertical li:hover {
+  background-color: black;
+}
+
+.grey_bar-vertical li a {
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+}
+
 
 
 /*# sourceMappingURL=styles.css.map */
