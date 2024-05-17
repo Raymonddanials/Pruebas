@@ -1,0 +1,82 @@
+@import "variables";
+header{
+    display: flex;
+    background-color: $color_a;
+    min-height: 125px;
+    .containerleft{
+        display: flex;
+        background-color:white;
+        align-items: end;
+        padding-bottom: 10px;
+        font-size: xx-large;
+        font-family: Calisto MT;
+        padding-right: 20px;
+        padding-left: 20px;
+
+    }
+    .containeright{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .countainer-top{
+        display: flex;
+        color:white;
+        flex-direction: row-reverse;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-right: 20px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+    }
+    .contenedor_A{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            font-family: BIZ UDGothic;
+            font-size: xx-large;
+            color: white;
+            padding-bottom: 10px;
+            a{
+                outline: none;
+                text-decoration: none;
+   
+            }
+            a:visited {
+                color: white;
+            }
+            a:hover {
+                border-bottom: 1px solid white;
+              }
+              a:active {
+                background: none;
+                color: none;
+              }  
+            
+            }
+        div{
+            padding-bottom: 10px;
+            gap: 10px;
+            font-family: BIZ UDGothic;
+            font-size: xx-large;
+            color: white;
+            padding-bottom: 10px;
+            display: flex;
+            gap: 10px;
+            padding-right: 35px;
+        }    
+    }
+    
+}
