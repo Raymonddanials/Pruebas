@@ -1,61 +1,3 @@
-.grey_bar {
-  display: flexbox;
-  margin: auto;
-  font-size: 20px;
-}
-
-.grey_bar .horizontal {
-  background-color: #D95F8C;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.grey_bar .horizontal > li > a {
-  display: block;
-  padding: 15px 20px;
-  color: beige;
-  text-decoration: none;
-}
-
-.grey_bar .horizontal > li:hover {
-  background-color: beige;
-}
-
-.grey_bar .horizontal > li:hover a {
-  color: #D989A6;
-}
-
-.grey_bar .vertical {
-  position: absolute;
-  display: none;
-  list-style: none;
-  width: 170px;
-  background-color: beige;
-}
-
-.grey_bar .vertical > li > a {
-  color: #D989A6;
-}
-
-.grey_bar .horizontal li:hover .vertical {
-  display: block;
-}
-
-.grey_bar .vertical > li:hover {
-  background-color: #D989A6;
-}
-
-.grey_bar .vertical > li:hover a {
-  color: beige;
-}
-
-.grey_bar .vertical li a {
-  display: block;
-  color: white;
-  padding: 15px 15px 15px 20px;
-}
-
 *,
 *:before,
 *:after {
@@ -166,7 +108,7 @@ input {
 
 header {
   display: flex;
-  background-color: rgb(217, 95, 140);
+  background-color: #D95F8C;
   min-height: 125px;
 }
 header .containerleft {
@@ -241,6 +183,64 @@ header .contenedor_A div {
   padding-right: 35px;
 }
 
+.grey_bar {
+  display: flexbox;
+  margin: auto;
+  font-size: 20px;
+}
+
+.grey_bar .horizontal {
+  background-color: #d95f8c;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grey_bar .horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: beige;
+  text-decoration: none;
+}
+
+.grey_bar .horizontal > li:hover {
+  background-color: beige;
+}
+
+.grey_bar .horizontal > li:hover a {
+  color: #d989a6;
+}
+
+.grey_bar .vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 170px;
+  background-color: beige;
+}
+
+.grey_bar .vertical > li > a {
+  color: #d989a6;
+}
+
+.grey_bar .horizontal li:hover .vertical {
+  display: block;
+}
+
+.grey_bar .vertical > li:hover {
+  background-color: #d989a6;
+}
+
+.grey_bar .vertical > li:hover a {
+  color: beige;
+}
+
+.grey_bar .vertical li a {
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+}
+
 .imagen {
   background-image: url("https://pbs.twimg.com/media/FWHt_lqWIAAn100?format=jpg&name=4096x4096");
   background-position: center;
@@ -260,7 +260,7 @@ header .contenedor_A div {
   padding: 20px;
 }
 .imagen section h1 {
-  color: rgb(217, 95, 140);
+  color: #D95F8C;
   text-align: right;
   margin: none;
   padding: none;
@@ -285,6 +285,58 @@ header .contenedor_A div {
 }
 .imagen section p {
   color: white;
+}
+
+body {
+  background-color: #7AA5BF;
+}
+
+.main_container {
+  display: flex;
+  padding: 30px 10%;
+}
+
+.main_container .content {
+  flex: 2;
+  padding: 15px 30px 10px 10px;
+  border-radius: 30px;
+  font-size: large;
+  background-color: beige;
+}
+
+.main_container .sidebar {
+  flex: 1;
+  padding: 0px 10px 3%;
+  text-align: center;
+}
+
+.main_container .sidebar button {
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  border-style: none;
+  width: 80%;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #9C1BBF;
+  color: beige;
+  border-radius: 15px;
+}
+
+.main_container .sidebar h2 {
+  padding: 0px 0px 10px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main_container .sidebar ul {
+  text-align: left;
+  padding: 0px 20px 30px;
+}
+
+.main_container .sidebar ul li {
+  margin: 5px 0px;
 }
 
 

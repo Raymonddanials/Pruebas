@@ -1,44 +1,52 @@
 @import "variables";
 @import "mixings";
-.imagen {
-    @include background-image("https://pbs.twimg.com/media/FWHt_lqWIAAn100?format=jpg&name=4096x4096");
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 400px;
-    width: 100vw;
-    section {
+.imagen{
+    @include background-image(
+        "https://pbs.twimg.com/media/FWHt_lqWIAAn100?format=jpg&name=4096x4096"
+      );
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 400px;
+      width: 100vw;
+      section{
         width: 600px;
         background-color: black;
         opacity: 0.8;
         margin-right: 10%;
         padding: 20px;
-        h1 {
+        h1{
             color: $color_a;
             text-align: right;
             margin: none;
             padding: none;
             font-family: Georgia, serif;
         }
-        h2 {
-            color: white;
-            font-weight: bold;
+        h2{
+         color: white;
+         font-weight: bold;
+
         }
-        h3 {
+        h3{
             font-size: 45px;
             color: white;
             font-family: Times, "Times New Roman", Georgia, serif;
         }
-        h4 {
+        h4{
             color: white;
-            font-family: Times, "Times New Roman", Georgia, serif;
+            font-family: Times, "Times New Roman", Georgia, serif;;
+            
         }
-        span {
+        span{
             color: white;
             opacity: 0.3;
         }
-        p {
+        p{
             color: white;
         }
-    }
+      }
+}
+
+body{
+    background-color: $color_e;
 }
