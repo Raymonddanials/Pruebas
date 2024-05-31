@@ -1,7 +1,7 @@
 @import "variables";
 
 // INICIO ".main_container" =============================================
-.main_container{
+.main_container {
     display: flex;
     // color: beige;
     padding: 30px 10%;
@@ -9,70 +9,70 @@
     // text-align: justify;
 }
 
-    // CONTENT
-    .main_container .content{
-         flex: 2; // 1 1 70%;
-        // background-color: #D989A6;
-        // margin-right: 3%;
-        padding: 15px 30px 10px 10px;
-        border-radius: 30px;
-        font-size: large;
-        background-color: beige;
-    }
+// CONTENT
+.main_container .content {
+    flex: 2; // 1 1 70%;
+    // background-color: #D989A6;
+    // margin-right: 3%;
+    padding: 15px 30px 10px 10px;
+    border-radius: 30px;
+    font-size: large;
+    background-color: beige;
+    border-color: $color_d;
+}
 
-    // .main_container .content h2{
-    //     padding-top: 20px;
-    //     text-align: center;
-    //     text-transform: uppercase;
-    //     font-family: BIZ UDGothic;
-    //     font-size: larger;
-    //     font-weight: bold;
-    // }
+// .main_container .content h2{
+//     padding-top: 20px;
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-family: BIZ UDGothic;
+//     font-size: larger;
+//     font-weight: bold;
+// }
 
-    // .main_container .content p{
-    //     padding-top: 20px;
-    // }
+// .main_container .content p{
+//     padding-top: 20px;
+// }
 
-    // SIDEBAR
-    .main_container .sidebar{
-        flex: 1; // 1 1 30%;
-        // background-color: #D989A6;
-        padding: 0px 10px 3%;
-        // border-radius: 30px;
-        text-align: center;
-    }
+// SIDEBAR
+.main_container .sidebar {
+    flex: 1; // 1 1 30%;
+    // background-color: #D989A6;
+    padding: 0px 10px 3%;
+    // border-radius: 30px;
+    text-align: center;
+}
 
-    .main_container .sidebar button{
-        padding: 15px 30px;
-        margin-bottom: 30px;
-        border-style: none;
-        width: 80%;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: $color_d;
-        color: beige;
-        border-radius: 15px;
-    }
+.main_container .sidebar button {
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-style: none;
+    width: 80%;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $color_d;
+    color: beige;
+    border-radius: 15px;
+}
 
-    .main_container .sidebar h2{
-        padding: 0px 0px 10px;
-        text-align: left;        
-        text-transform: uppercase;
-        font-weight: bold;
-    }
+.main_container .sidebar h2 {
+    padding: 0px 0px 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-    .main_container .sidebar ul{
-        text-align: left;
-        padding: 0px 20px 30px;
-    }
+.main_container .sidebar ul {
+    text-align: left;
+    padding: 0px 20px 30px;
+}
 
-    .main_container .sidebar ul li{
-        margin: 5px 0px;
-    }
+.main_container .sidebar ul li {
+    margin: 5px 0px;
+}
 // FIN ".main_container" =============================================
 // ADAPTACIÓN: 0x0
-@media (min-width: 56.25em){
-
+@media (min-width: 56.25em) {
 }
 // FIN ADAPTACIÓN: 0x0

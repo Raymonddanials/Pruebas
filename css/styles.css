@@ -242,7 +242,7 @@ header .contenedor_A div {
 }
 
 .imagen {
-  background-image: url("https://pbs.twimg.com/media/FWHt_lqWIAAn100?format=jpg&name=4096x4096");
+  background-image: url("/Img/Emikukis.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,7 +250,7 @@ header .contenedor_A div {
   align-items: center;
   justify-content: flex-end;
   height: 400px;
-  width: 100vw;
+  width: 100%;
 }
 .imagen section {
   width: 600px;
@@ -302,6 +302,7 @@ body {
   border-radius: 30px;
   font-size: large;
   background-color: beige;
+  border-color: #9C1BBF;
 }
 
 .main_container .sidebar {
@@ -337,6 +338,22 @@ body {
 
 .main_container .sidebar ul li {
   margin: 5px 0px;
+}
+
+.box_flex_footer {
+  display: flex;
+  background-color: rgba(128, 0, 128, 0.49);
+}
+
+.align_footer {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+.border_right {
+  border-right: #98988a 1px solid;
 }
 
 
