@@ -5,6 +5,7 @@
     display: flex;
     // color: beige;
     padding: 30px 10%;
+    color: white;
     // flex-wrap: wrap;
     // text-align: justify;
 }
@@ -16,8 +17,8 @@
         // margin-right: 3%;
         padding: 15px 30px 10px 10px;
         border-radius: 30px;
-        font-size: large;
-        background-color: beige;
+        font-size: large;        
+        // background-color: beige;
     }
 
     // .main_container .content h2{
@@ -50,7 +51,7 @@
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
-        background-color: $color_d;
+        background-color: $color_a;
         color: beige;
         border-radius: 15px;
     }
