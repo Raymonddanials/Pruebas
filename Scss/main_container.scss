@@ -5,21 +5,21 @@
     display: flex;
     // color: beige;
     padding: 30px 10%;
+    color: white;
     // flex-wrap: wrap;
     // text-align: justify;
 }
 
-// CONTENT
-.main_container .content {
-    flex: 2; // 1 1 70%;
-    // background-color: #D989A6;
-    // margin-right: 3%;
-    padding: 15px 30px 10px 10px;
-    border-radius: 30px;
-    font-size: large;
-    background-color: beige;
-    border-color: $color_d;
-}
+    // CONTENT
+    .main_container .content{
+         flex: 2; // 1 1 70%;
+        // background-color: #D989A6;
+        // margin-right: 3%;
+        padding: 15px 30px 10px 10px;
+        border-radius: 30px;
+        font-size: large;        
+        // background-color: beige;
+    }
 
 // .main_container .content h2{
 //     padding-top: 20px;
@@ -43,18 +43,18 @@
     text-align: center;
 }
 
-.main_container .sidebar button {
-    padding: 15px 30px;
-    margin-bottom: 30px;
-    border-style: none;
-    width: 80%;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: $color_d;
-    color: beige;
-    border-radius: 15px;
-}
+    .main_container .sidebar button{
+        padding: 15px 30px;
+        margin-bottom: 30px;
+        border-style: none;
+        width: 80%;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: $color_a;
+        color: beige;
+        border-radius: 15px;
+    }
 
 .main_container .sidebar h2 {
     padding: 0px 0px 10px;

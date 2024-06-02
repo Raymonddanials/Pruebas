@@ -294,6 +294,7 @@ body {
 .main_container {
   display: flex;
   padding: 30px 10%;
+  color: white;
 }
 
 .main_container .content {
@@ -301,8 +302,6 @@ body {
   padding: 15px 30px 10px 10px;
   border-radius: 30px;
   font-size: large;
-  background-color: beige;
-  border-color: #9C1BBF;
 }
 
 .main_container .sidebar {
@@ -319,7 +318,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #9C1BBF;
+  background-color: #D95F8C;
   color: beige;
   border-radius: 15px;
 }
