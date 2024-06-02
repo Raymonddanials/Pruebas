@@ -2,12 +2,13 @@
 .box_flex_footer {
     display: flex;
     background-color: rgba(128, 0, 128, 0.49);
+    min-height: 200px;
 }
 .align_footer {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    flex-basis: auto;
+    flex-grow: 1;
 }
 .border_right {
     border-right: $color_icons 1px solid;
